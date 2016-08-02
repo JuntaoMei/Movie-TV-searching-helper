@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.juntao.tmdb.InfoActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:id = "@+id/poster"
+                android:layout_width="wrap_content"
+                android:layout_height= "wrap_content"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:id = "@+id/titleInfo"
+                android:layout_below="@id/poster"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                android:text="titleInfo"/>
+
+            <TextView
+                android:id = "@+id/yearInfo"
+                android:layout_below="@id/titleInfo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                android:text="No release_year information"/>
+            <TextView
+                android:id = "@+id/overviewContext"
+                android:layout_below="@id/yearInfo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="overview: "/>
+            <TextView
+                android:id = "@+id/overview"
+                android:layout_below="@id/overviewContext"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="No overview"/>
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

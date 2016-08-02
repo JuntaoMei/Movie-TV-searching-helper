@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Movie Search Helper</string>
+    <string name="textForTitle">Title</string>
+    <string name="textForYear">Year</string>
+    <string name="buttonForMovie">Search for movie</string>
+    <string name="buttonForTV">Search for TV</string>
+    <string name="goBack">Back</string>
+    <string name="title">Title</string>
+    <string name="content">Content</string>
+    <string name="year">Year</string>
+</resources>
